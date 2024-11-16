@@ -25,9 +25,9 @@ def screenshot(frame, suffix=""):
 
 #creating a function to send alert emails when a weapon is been detected
 def alert():
-    sender = "repulseutkarsh@gmail.com"
+    sender = " " #Enter your email
     receiver = "u12344321g@gmail.com"
-    password = "Vedanshg-33"
+    password = " " #Enter the password of your email
     subject = "Weapon Detected Alert"
 
     msg = MIMEMultipart()
